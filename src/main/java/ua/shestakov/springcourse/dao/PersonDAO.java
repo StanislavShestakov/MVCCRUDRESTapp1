@@ -40,4 +40,8 @@ public class PersonDAO {
 
         personToBeUpdated.setName(updatedPerson.getName());
     }
+
+    public void delete(int id){
+        people.removeIf(p -> p.getId() == id);
+    }
 }

@@ -4,11 +4,13 @@
     <meta charset="UTF-8">
     <title>все люди</title>
 </head>
-<body>
+<br>
 
 <div th:each="person : ${people}">
     <a th:text="${person.getName()}" th:href="@{/people/{id}(id=${person.getId()})}">user</a>
 </div>
-
+</br>
+<hr/>
+<a href="/people/new">Create new person</a>
 </body>
 </html>
