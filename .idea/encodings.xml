@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="Encoding" defaultCharsetForPropertiesFiles="windows-1251" addBOMForNewFiles="with BOM">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="windows-1251">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/ua/shestakov/springcourse/controllers/PeopleController.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/ua/shestakov/springcourse/dao/PersonMapper.java" charset="US-ASCII" />
     <file url="PROJECT" charset="windows-1251" />
   </component>
 </project>
